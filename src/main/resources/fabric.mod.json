@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "crystalgarden",
+  "version": "${version}",
+
+  "name": "Shale's Horde: Crystal Garden",
+  "description": "",
+  "authors": [
+    "Lycei"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/crystalgarden/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.shale.horde.crystalgarden.Main"
+    ]
+  },
+  "mixins": [
+    "crystalgarden.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
