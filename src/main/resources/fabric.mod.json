@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "crystalgarden",
+  "id": "crystal-garden",
   "version": "${version}",
 
   "name": "Shale's Horde: Crystal Garden",
@@ -19,7 +19,8 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.shale.horde.crystalgarden.Main"
+      "net.shale.horde.crystalgarden.Main",
+      "net.shale.horde.crystalgarden.util.crop_renderer"
     ]
   },
   "mixins": [
@@ -29,7 +30,7 @@
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "~1.18.2",
+    "minecraft": "~1.19.2",
     "java": ">=17"
   },
   "suggests": {

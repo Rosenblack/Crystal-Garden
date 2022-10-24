@@ -1,21 +1,42 @@
 package net.shale.horde.crystalgarden;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.util.Identifier;
+import net.shale.horde.crystalgarden.block.generic.g_t0_crops;
+import net.shale.horde.crystalgarden.block.vanilla.*;
+import net.shale.horde.crystalgarden.item.generic.g_t0_essence;
+import net.shale.horde.crystalgarden.item.generic.g_t0_seeds;
+import net.shale.horde.crystalgarden.item.vanilla.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Main implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
+	public static final String ID = "crystal-garden";
+	public static Identifier id(String path) {
+		return new Identifier(ID, path);
+	}
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		g_t0_crops.registerBlock();
+		g_t0_seeds.registerModItems();
+		g_t0_essence.registerModItems();
+		v_t1_crops.registerBlock();
+		v_t1_seeds.registerModItems();
+		v_t1_essence.registerModItems();
+		v_t2_crops.registerBlock();
+		v_t2_seeds.registerModItems();
+		v_t2_essence.registerModItems();
+		v_t3_crops.registerBlock();
+		v_t3_seeds.registerModItems();
+		v_t4_crops.registerBlock();
+		v_t4_seeds.registerModItems();
+		v_t4_essence.registerModItems();
+		v_t5_crops.registerBlock();
+		v_t5_seeds.registerModItems();
+		v_t5_essence.registerModItems();
+		v_t6_crops.registerBlock();
+		v_t6_seeds.registerModItems();
+		v_t6_essence.registerModItems();
 	}
 }

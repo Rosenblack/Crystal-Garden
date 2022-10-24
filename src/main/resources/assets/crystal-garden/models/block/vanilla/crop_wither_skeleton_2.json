@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "crystal-garden:block/vanilla/crop_wither_skeleton_2"
+  }
+}

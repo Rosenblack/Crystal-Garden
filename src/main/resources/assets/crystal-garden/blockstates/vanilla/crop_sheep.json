@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "crystal-garden:block/generic/crop_0"
+    },
+    "age=1": {
+      "model": "crystal-garden:block/generic/crop_1"
+    },
+    "age=2": {
+      "model": "crystal-garden:block/generic/crop_2"
+    },
+    "age=3": {
+      "model": "crystal-garden:block/generic/crop_3"
+    },
+    "age=4": {
+      "model": "crystal-garden:block/generic/crop_4"
+    },
+    "age=5": {
+      "model": "crystal-garden:block/generic/crop_5"
+    },
+    "age=6": {
+      "model": "crystal-garden:block/vanilla/crop_sheep_1"
+    },
+    "age=7": {
+      "model": "crystal-garden:block/vanilla/crop_sheep_2"
+    }
+  }
+}
