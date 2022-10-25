@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iDi",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "horde-core:raw/bismuth"
+    },
+    "D": {
+      "tag": "c:seeds"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:seeds/seed_bismuth",
+    "count": 1
+  }
+}
