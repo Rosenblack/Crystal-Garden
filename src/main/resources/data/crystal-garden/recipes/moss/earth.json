@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#M",
+    "FK"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:clay_ball"
+    },
+    "M": {
+      "item": "minecraft:moss_block"
+    },
+    "F": {
+      "item": "minecraft:mushroom_stew"
+    },
+    "K": {
+      "item": "minecraft:kelp"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:moss/earth",
+    "count": 1
+  }
+}

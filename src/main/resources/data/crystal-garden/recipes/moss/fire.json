@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#M",
+    "FK"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:clay_ball"
+    },
+    "M": {
+      "item": "minecraft:moss_block"
+    },
+    "F": {
+      "item": "minecraft:magma_block"
+    },
+    "K": {
+      "item": "minecraft:kelp"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:moss/fire",
+    "count": 1
+  }
+}

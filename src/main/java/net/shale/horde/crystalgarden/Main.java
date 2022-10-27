@@ -6,10 +6,7 @@ import net.shale.horde.crystalgarden.block.generic.g_t0_crops;
 import net.shale.horde.crystalgarden.block.vanilla.*;
 import net.shale.horde.crystalgarden.item.generic.g_t0_essence;
 import net.shale.horde.crystalgarden.item.generic.g_t0_seeds;
-import net.shale.horde.crystalgarden.item.moditems.extra;
-import net.shale.horde.crystalgarden.item.moditems.gemstones;
-import net.shale.horde.crystalgarden.item.moditems.raw;
-import net.shale.horde.crystalgarden.item.moditems.seeds;
+import net.shale.horde.crystalgarden.item.moditems.*;
 import net.shale.horde.crystalgarden.item.vanilla.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,6 +43,7 @@ public class Main implements ModInitializer {
 		gemstones.registerModItems();
 		seeds.registerModItems();
 		raw.registerModItems();
+		moss.registerModItems();
 		extra.registerModItems();
 	}
 }
