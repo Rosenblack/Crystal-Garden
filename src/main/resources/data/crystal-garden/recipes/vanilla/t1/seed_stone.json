@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "BJB",
+    "#B#"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-core:raw/rhodonite"
+    },
+    "B": {
+      "item": "minecraft:stone"
+    },
+    "J": {
+      "item": "crystal-garden:seeds/seed_dragonstone_overworld"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:vanilla/seed_stone",
+    "count": 1
+  }
+}

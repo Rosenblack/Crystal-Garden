@@ -9,6 +9,8 @@ import net.shale.horde.crystalgarden.Main;
 
 public class tags {
     public static class Blocks {
+//                public static final TagKey<Block> LOGS =
+//                createCommonTag("logs");
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(Registry.BLOCK_KEY, new Identifier(Main.ID, name));
         }

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "BJB",
+    "#B#"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:raw/aventurine"
+    },
+    "B": [
+      {
+        "item": "minecraft:coal_block"
+      },
+      {
+        "item": "crystal-garden:vanillaplus/charcoal_block"
+      }
+    ],
+    "J": {
+      "item": "crystal-garden:seeds/seed_dragonstone_overworld"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:vanilla/seed_coal",
+    "count": 1
+  }
+}

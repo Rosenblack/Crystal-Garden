@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "BJB",
+    "#B#"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:raw/larimar"
+    },
+    "B": {
+      "item": "minecraft:diamond_block"
+    },
+    "J": {
+      "item": "crystal-garden:seeds/seed_dragonstone_overworld"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:vanilla/seed_diamond",
+    "count": 1
+  }
+}

@@ -14,6 +14,8 @@ public class raw {
             .group(ItemGroup.MATERIALS)));
     public static final Item SPINEL = registerItem("raw/spinel", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
+    public static final Item LARIMAR = registerItem("raw/larimar", new Item(new FabricItemSettings()
+            .group(ItemGroup.MATERIALS)));
     public static final Item CHAORITE = registerItem("raw/chaorite", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
 

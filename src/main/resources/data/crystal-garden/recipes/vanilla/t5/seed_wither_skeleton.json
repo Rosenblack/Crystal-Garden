@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "BJB",
+    "#B#"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:raw/larimar"
+    },
+    "B": {
+      "item": "crystal-garden:placeholder"
+    },
+    "J": {
+      "item": "crystal-garden:seeds/seed_bismuth"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:vanilla/seed_wither_skeleton",
+    "count": 1
+  }
+}

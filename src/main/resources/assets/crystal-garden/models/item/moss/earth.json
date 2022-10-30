@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "crystal-garden:item/moss/earth_moss"
+    "layer0": "crystal-garden:item/moss/earth_moss2"
   }
 }

@@ -4,10 +4,12 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import net.shale.horde.crystalgarden.block.generic.g_t0_crops;
 import net.shale.horde.crystalgarden.block.vanilla.*;
+import net.shale.horde.crystalgarden.block.vanillaplus.blocks;
 import net.shale.horde.crystalgarden.item.generic.g_t0_essence;
 import net.shale.horde.crystalgarden.item.generic.g_t0_seeds;
 import net.shale.horde.crystalgarden.item.moditems.*;
 import net.shale.horde.crystalgarden.item.vanilla.*;
+import net.shale.horde.crystalgarden.util.tags;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -45,5 +47,7 @@ public class Main implements ModInitializer {
 		raw.registerModItems();
 		moss.registerModItems();
 		extra.registerModItems();
+		//Vanilla plus
+		blocks.registerBlock();
 	}
 }
