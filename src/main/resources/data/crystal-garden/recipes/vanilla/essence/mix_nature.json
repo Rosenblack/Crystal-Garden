@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#PL",
+    "AGF",
+    "CMS"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:kelp"
+    },
+    "P": {
+      "item": "minecraft:pumpkin"
+    },
+    "L": {
+      "item": "minecraft:lily_pad"
+    },
+    "A": {
+      "item": "minecraft:azalea"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    },
+    "F": {
+      "item": "minecraft:flowering_azalea"
+    },
+    "C": {
+      "item": "minecraft:cactus"
+    },
+    "M": {
+      "item": "minecraft:melon"
+    },
+    "S": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:vanilla/mix_nature",
+    "count": 1
+  }
+}

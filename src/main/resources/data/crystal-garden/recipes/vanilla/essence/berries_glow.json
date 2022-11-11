@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#G#",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_nature"
+    },
+    "G": {
+      "item": "crystal-garden:vanilla/essence_glowstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:glow_berries",
+    "count": 8
+  }
+}

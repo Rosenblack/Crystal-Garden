@@ -26,6 +26,7 @@ public class crop_renderer implements ModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(v_t2_crops.CROP_COPPER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(v_t2_crops.CROP_COW, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(v_t2_crops.CROP_FISH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(v_t2_crops.CROP_FROG, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(v_t2_crops.CROP_IRON, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(v_t2_crops.CROP_PIG, RenderLayer.getCutout());
 
@@ -59,6 +60,7 @@ public class crop_renderer implements ModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(v_t5_crops.CROP_GLOWSTONE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(v_t5_crops.CROP_NETHER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(v_t5_crops.CROP_NETHER_QUARTZ, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(v_t5_crops.CROP_SCULK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(v_t5_crops.CROP_WITHER_SKELETON, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(v_t6_crops.CROP_DRAGON, RenderLayer.getCutout());

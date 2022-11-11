@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#C#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_cow"
+    },
+    "C": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:milk_bucket",
+    "count": 1
+  }
+}

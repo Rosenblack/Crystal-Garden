@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crystal-garden:vanilla/essence_netherite"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_netherite"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_netherite"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_netherite"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_scrap",
+    "count": 4
+  }
+}

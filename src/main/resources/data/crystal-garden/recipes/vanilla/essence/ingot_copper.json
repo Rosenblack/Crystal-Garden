@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_copper"
+    }
+  },
+  "result": {
+    "item": "minecraft:copper_ingot",
+    "count": 6
+  }
+}

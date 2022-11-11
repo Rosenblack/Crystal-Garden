@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#N#",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_end"
+    },
+    "N": {
+      "item": "crystal-garden:vanilla/essence_nature"
+    }
+  },
+  "result": {
+    "item": "minecraft:chorus_fruit",
+    "count": 8
+  }
+}

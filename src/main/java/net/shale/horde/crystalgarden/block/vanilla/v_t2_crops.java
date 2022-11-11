@@ -30,6 +30,9 @@ public class v_t2_crops {
     public static final Block CROP_FISH = registerBlockWithoutBlockItem("vanilla/crop_fish",
             new v_t2_crop_fish(FabricBlockSettings.copy(Blocks.WHEAT)
             ));
+    public static final Block CROP_FROG = registerBlockWithoutBlockItem("vanilla/crop_frog",
+            new v_t2_crop_frog(FabricBlockSettings.copy(Blocks.WHEAT)
+            ));
     public static final Block CROP_IRON = registerBlockWithoutBlockItem("vanilla/crop_iron",
             new v_t2_crop_iron(FabricBlockSettings.copy(Blocks.WHEAT)
             ));

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_sheep"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_wool",
+    "count": 6
+  }
+}

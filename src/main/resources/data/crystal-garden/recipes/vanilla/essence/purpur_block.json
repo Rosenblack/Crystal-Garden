@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_end"
+    }
+  },
+  "result": {
+    "item": "minecraft:purpur_block",
+    "count": 8
+  }
+}

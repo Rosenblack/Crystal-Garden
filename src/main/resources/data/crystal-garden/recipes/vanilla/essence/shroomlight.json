@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_nature"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_glowstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:shroomlight",
+    "count": 12
+  }
+}

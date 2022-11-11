@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_zombie"
+    }
+  },
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 6
+  }
+}

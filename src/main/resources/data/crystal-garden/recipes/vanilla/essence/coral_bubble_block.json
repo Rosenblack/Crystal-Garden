@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_coral"
+    },
+    "C": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:bubble_coral_block",
+    "count": 12
+  }
+}

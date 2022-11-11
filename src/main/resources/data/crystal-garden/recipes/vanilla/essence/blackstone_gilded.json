@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "#C#",
+    "#G#"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_nether"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_stone"
+    },
+    "G": {
+      "item": "crystal-garden:vanilla/essence_gold"
+    }
+  },
+  "result": {
+    "item": "minecraft:gilded_blackstone",
+    "count": 24
+  }
+}

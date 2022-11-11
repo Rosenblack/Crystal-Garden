@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_skeleton"
+    }
+  },
+  "result": {
+    "item": "minecraft:bone",
+    "count": 12
+  }
+}

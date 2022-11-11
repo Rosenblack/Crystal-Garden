@@ -33,6 +33,9 @@ public class v_t5_crops {
     public static final Block CROP_NETHER_QUARTZ = registerBlockWithoutBlockItem("vanilla/crop_nether_quartz",
             new v_t5_crop_nether_quartz(FabricBlockSettings.copy(Blocks.WHEAT)
             ));
+    public static final Block CROP_SCULK = registerBlockWithoutBlockItem("vanilla/crop_sculk",
+            new v_t5_crop_sculk(FabricBlockSettings.copy(Blocks.WHEAT)
+            ));
     public static final Block CROP_WITHER_SKELETON = registerBlockWithoutBlockItem("vanilla/crop_wither_skeleton",
             new v_t5_crop_wither_skeleton(FabricBlockSettings.copy(Blocks.WHEAT)
             ));

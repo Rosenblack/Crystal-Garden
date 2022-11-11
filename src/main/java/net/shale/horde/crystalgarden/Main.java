@@ -32,6 +32,7 @@ public class Main implements ModInitializer {
 		v_t2_essence.registerModItems();
 		v_t3_crops.registerBlock();
 		v_t3_seeds.registerModItems();
+		v_t3_essence.registerModItems();
 		v_t4_crops.registerBlock();
 		v_t4_seeds.registerModItems();
 		v_t4_essence.registerModItems();
@@ -47,6 +48,8 @@ public class Main implements ModInitializer {
 		raw.registerModItems();
 		moss.registerModItems();
 		extra.registerModItems();
+		bismuth_bottle.registerModItems();
+		//souls.registerModItems();
 		//Vanilla plus
 		blocks.registerBlock();
 	}

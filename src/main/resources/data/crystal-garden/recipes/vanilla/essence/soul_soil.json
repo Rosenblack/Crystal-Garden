@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_nether"
+    },
+    "C": {
+      "item": "crystal-garden:generic/essence_earth"
+    }
+  },
+  "result": {
+    "item": "minecraft:soul_soil",
+    "count": 16
+  }
+}

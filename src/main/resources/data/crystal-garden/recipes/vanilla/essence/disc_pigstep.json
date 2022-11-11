@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BC ",
+    "SD ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "crystal-garden:other/blank_disc"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_nether"
+    },
+    "S": {
+      "item": "crystal-garden:vanilla/essence_netherite"
+    },
+    "D": {
+      "item": "crystal-garden:vanilla/essence_gold"
+    }
+  },
+  "result": {
+    "item": "minecraft:music_disc_pigstep",
+    "count": 1
+  }
+}

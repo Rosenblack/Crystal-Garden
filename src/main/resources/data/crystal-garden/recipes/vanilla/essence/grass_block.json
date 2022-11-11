@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_dirt"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_nature"
+    }
+  },
+  "result": {
+    "item": "minecraft:grass_block",
+    "count": 20
+  }
+}

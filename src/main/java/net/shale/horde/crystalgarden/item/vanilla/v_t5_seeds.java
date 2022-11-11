@@ -39,6 +39,10 @@ public class v_t5_seeds {
             AliasedBlockItem(v_t5_crops.CROP_NETHER_QUARTZ,
             new FabricItemSettings()
                     .group(ItemGroup.FOOD)));
+    public static final Item SEED_SCULK = registerItem("vanilla/seed_sculk", new
+            AliasedBlockItem(v_t5_crops.CROP_SCULK,
+            new FabricItemSettings()
+                    .group(ItemGroup.FOOD)));
     public static final Item SEED_WITHER_SKELETON = registerItem("vanilla/seed_wither_skeleton", new
             AliasedBlockItem(v_t5_crops.CROP_WITHER_SKELETON,
             new FabricItemSettings()

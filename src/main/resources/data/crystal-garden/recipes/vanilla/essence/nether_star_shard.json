@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_nether_star"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:extras/star",
+    "count": 1
+  }
+}

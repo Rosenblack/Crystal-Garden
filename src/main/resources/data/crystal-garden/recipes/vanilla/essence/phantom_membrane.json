@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###",
+    " F "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_enderman"
+    },
+    "F": {
+      "item": "crystal-garden:generic/essence_air"
+    }
+  },
+  "result": {
+    "item": "minecraft:phantom_membrane",
+    "count": 1
+  }
+}

@@ -7,11 +7,12 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.crystalgarden.Main;
+import net.shale.horde.crystalgarden.item.moditems.modifiers.glinted;
 
 public class v_t6_essence {
     public static final Item ESSENCE_DRAGON = registerItem("vanilla/essence_dragon", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
-    public static final Item ESSENCE_NETHER_STAR = registerItem("vanilla/essence_nether_star", new Item(new FabricItemSettings()
+    public static final Item ESSENCE_NETHER_STAR = registerItem("vanilla/essence_nether_star", new glinted(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
     public static final Item ESSENCE_NETHERITE = registerItem("vanilla/essence_netherite", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));

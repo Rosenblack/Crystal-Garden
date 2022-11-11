@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IDP",
+    "DND",
+    "PDI"
+  ],
+  "key": {
+    "I": {
+      "item": "crystal-garden:vanilla/essence_squid"
+    },
+    "D": {
+      "item": "crystal-garden:vanilla/essence_diamond"
+    },
+    "P": {
+      "item": "crystal-garden:vanilla/essence_prismarine"
+    },
+    "N": {
+      "item": "minecraft:nautilus_shell"
+    }
+  },
+  "result": {
+    "item": "minecraft:heart_of_the_sea",
+    "count": 1
+  }
+}

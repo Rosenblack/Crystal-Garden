@@ -20,6 +20,8 @@ public class v_t2_essence {
             .group(ItemGroup.MATERIALS)));
     public static final Item ESSENCE_FISH = registerItem("vanilla/essence_fish", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
+    public static final Item ESSENCE_FROG = registerItem("vanilla/essence_frog", new Item(new FabricItemSettings()
+            .group(ItemGroup.MATERIALS)));
     public static final Item ESSENCE_IRON = registerItem("vanilla/essence_iron", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
     public static final Item ESSENCE_PIG = registerItem("vanilla/essence_pig", new Item(new FabricItemSettings()

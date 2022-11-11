@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " C ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_stone"
+    },
+    "C": {
+      "item": "crystal-garden:generic/essence_water"
+    }
+  },
+  "result": {
+    "item": "minecraft:pointed_dripstone",
+    "count": 12
+  }
+}

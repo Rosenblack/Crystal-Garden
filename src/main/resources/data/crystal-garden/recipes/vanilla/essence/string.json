@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_spider"
+    }
+  },
+  "result": {
+    "item": "minecraft:string",
+    "count": 8
+  }
+}

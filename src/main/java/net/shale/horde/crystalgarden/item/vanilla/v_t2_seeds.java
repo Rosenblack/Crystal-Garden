@@ -35,6 +35,10 @@ public class v_t2_seeds {
             AliasedBlockItem(v_t2_crops.CROP_FISH,
             new FabricItemSettings()
                     .group(ItemGroup.FOOD)));
+    public static final Item SEED_FROG = registerItem("vanilla/seed_frog", new
+            AliasedBlockItem(v_t2_crops.CROP_FROG,
+            new FabricItemSettings()
+                    .group(ItemGroup.FOOD)));
     public static final Item SEED_IRON = registerItem("vanilla/seed_iron", new
             AliasedBlockItem(v_t2_crops.CROP_IRON,
             new FabricItemSettings()

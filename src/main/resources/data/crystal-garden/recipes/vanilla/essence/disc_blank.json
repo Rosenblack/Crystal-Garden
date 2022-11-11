@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "S#S",
+    "CSC"
+  ],
+  "key": {
+    "S": {
+      "item": "crystal-garden:vanilla/essence_skeleton"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_creeper"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:other/blank_disc",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    " # ",
+    "  #"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_rabbit"
+    }
+  },
+  "result": {
+    "item": "minecraft:rabbit_foot",
+    "count": 3
+  }
+}

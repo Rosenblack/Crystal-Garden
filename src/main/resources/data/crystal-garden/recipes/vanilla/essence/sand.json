@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C",
+    "C#"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:generic/essence_fire"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:sand",
+    "count": 16
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "#C#",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_dirt"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_nature"
+    }
+  },
+  "result": {
+    "item": "minecraft:crimson_nylium",
+    "count": 20
+  }
+}

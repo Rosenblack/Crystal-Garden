@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_sculk"
+    }
+  },
+  "result": {
+    "item": "minecraft:sculk_sensor",
+    "count": 1
+  }
+}

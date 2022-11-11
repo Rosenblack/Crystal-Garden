@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_dragon"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:extras/dragon",
+    "count": 1
+  }
+}

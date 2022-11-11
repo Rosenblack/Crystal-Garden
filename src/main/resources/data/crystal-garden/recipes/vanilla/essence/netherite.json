@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crystal-garden:vanilla/essence_netherite"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_netherite"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_netherite"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_netherite"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_gold"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_gold"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_gold"
+    },
+    {
+      "item": "crystal-garden:vanilla/essence_gold"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_ingot",
+    "count": 1
+  }
+}

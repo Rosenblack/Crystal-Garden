@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C#C",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "crystal-garden:vanilla/essence_dirt"
+    },
+    "#": {
+      "item": "crystal-garden:generic/essence_water"
+    }
+  },
+  "result": {
+    "item": "minecraft:mud",
+    "count": 12
+  }
+}

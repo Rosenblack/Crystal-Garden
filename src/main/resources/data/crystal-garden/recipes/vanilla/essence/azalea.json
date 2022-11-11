@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N#N",
+    " # ",
+    "   "
+  ],
+  "key": {
+    "N": {
+      "item": "crystal-garden:vanilla/essence_nature"
+    },
+    "#": {
+      "item": "crystal-garden:vanilla/essence_wood"
+    }
+  },
+  "result": {
+    "item": "minecraft:azalea",
+    "count": 4
+  }
+}

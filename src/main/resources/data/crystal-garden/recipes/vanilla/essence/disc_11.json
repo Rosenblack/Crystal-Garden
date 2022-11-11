@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BC ",
+    "SD ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "crystal-garden:other/blank_disc"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_creeper"
+    },
+    "S": {
+      "item": "crystal-garden:vanilla/essence_skeleton"
+    },
+    "D": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:music_disc_11",
+    "count": 1
+  }
+}

@@ -1,10 +1,10 @@
-package net.shale.horde.crystalgarden.item.moditems;
+package net.shale.horde.crystalgarden.item.moditems.modifiers;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class Glinted extends Item {
-    public Glinted(Settings settings) {
+public class glinted extends Item {
+    public glinted(Settings settings) {
         super(settings);
     }
 

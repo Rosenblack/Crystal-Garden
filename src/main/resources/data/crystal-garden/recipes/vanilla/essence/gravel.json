@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C#",
+    "#C"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_stone"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:gravel",
+    "count": 16
+  }
+}

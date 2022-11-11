@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_slime"
+    },
+    "B": {
+      "item": "crystal-garden:vanilla/essence_blaze"
+    }
+  },
+  "result": {
+    "item": "minecraft:magma_cream",
+    "count": 6
+  }
+}

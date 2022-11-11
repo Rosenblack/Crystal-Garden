@@ -23,6 +23,8 @@ public class v_t5_essence {
             .group(ItemGroup.MATERIALS)));
     public static final Item ESSENCE_NETHER_QUARTZ = registerItem("vanilla/essence_nether_quartz", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
+    public static final Item ESSENCE_SCULK = registerItem("vanilla/essence_sculk", new Item(new FabricItemSettings()
+            .group(ItemGroup.MATERIALS)));
     public static final Item ESSENCE_WITHER_SKELETON = registerItem("vanilla/essence_wither_skeleton", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
     private static Item registerItem(String name, Item item) {

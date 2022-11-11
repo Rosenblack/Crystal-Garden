@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " W ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_nature"
+    },
+    "W": {
+      "item": "crystal-garden:generic/essence_water"
+    }
+  },
+  "result": {
+    "item": "minecraft:small_dripleaf",
+    "count": 4
+  }
+}

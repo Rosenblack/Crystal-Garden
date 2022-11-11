@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_deepslate"
+    },
+    "C": {
+      "item": "crystal-garden:vanilla/essence_coal"
+    }
+  },
+  "result": {
+    "item": "minecraft:deepslate",
+    "count": 20
+  }
+}

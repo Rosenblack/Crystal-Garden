@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:vanilla/essence_slime"
+    }
+  },
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 8
+  }
+}
