@@ -3,8 +3,10 @@ package net.shale.horde.crystalgarden;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import net.shale.horde.crystalgarden.block.generic.g_t0_crops;
+import net.shale.horde.crystalgarden.block.moditems.machines;
 import net.shale.horde.crystalgarden.block.vanilla.*;
 import net.shale.horde.crystalgarden.block.vanillaplus.blocks;
+import net.shale.horde.crystalgarden.entity.entity_reg;
 import net.shale.horde.crystalgarden.item.generic.g_t0_essence;
 import net.shale.horde.crystalgarden.item.generic.g_t0_seeds;
 import net.shale.horde.crystalgarden.item.moditems.*;
@@ -52,5 +54,7 @@ public class Main implements ModInitializer {
 		//souls.registerModItems();
 		//Vanilla plus
 		blocks.registerBlock();
+		machines.registerBlock();
+		entity_reg.regEntity();
 	}
 }

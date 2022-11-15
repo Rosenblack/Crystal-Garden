@@ -21,6 +21,9 @@
     "main": [
       "net.shale.horde.crystalgarden.Main",
       "net.shale.horde.crystalgarden.util.crop_renderer"
+    ],
+    "client": [
+      "net.shale.horde.crystalgarden.Client"
     ]
   },
   "mixins": [
