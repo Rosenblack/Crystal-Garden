@@ -32,6 +32,10 @@ public class s_combiner extends HandledScreen<sh_combiner> {
         int x = (width - backgroundWidth) / 2;
         int y = (height - backgroundHeight) / 2;
         drawTexture(matrices, x, y, 0, 0, backgroundWidth, backgroundHeight);
+
+        if(handler.isCrafting()) {
+            drawTexture(matrices, x + 84, y + 22, 176, 14, handler.getScaledProgress(), 36);
+        }
     }
 
     @Override

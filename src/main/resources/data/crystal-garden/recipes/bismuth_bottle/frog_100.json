@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:froglights"
+    },
+    "G": {
+      "item": "crystal-garden:bismuth_bottle/0"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:bismuth_bottle/frog_100",
+    "count": 1
+  }
+}

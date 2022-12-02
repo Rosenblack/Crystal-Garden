@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crystal-garden:raw/larimar"
+    }
+  ],
+  "result": {
+    "item": "crystal-garden:raw/spinel",
+    "count": 4
+  }
+}

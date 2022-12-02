@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#_#",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-core:raw/bismuth"
+    },
+    "_": {
+      "item": "minecraft:oak_slab"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:bismuth_bottle/0",
+    "count": 1
+  }
+}

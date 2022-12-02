@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#_#",
+    "_G_",
+    "#_#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone_bricks"
+    },
+    "_": {
+      "item": "minecraft:end_stone_brick_slab"
+    },
+    "G": {
+      "item": "crystal-garden:glass_bottle/0"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:glass_bottle/end_100",
+    "count": 1
+  }
+}

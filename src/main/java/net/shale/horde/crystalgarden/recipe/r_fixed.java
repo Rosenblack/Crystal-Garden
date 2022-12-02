@@ -1,4 +1,4 @@
-package net.shale.horde.crystalgarden.util;
+package net.shale.horde.crystalgarden.recipe;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
@@ -14,11 +14,12 @@ import net.minecraft.util.JsonHelper;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.world.World;
 import net.shale.horde.crystalgarden.mixin.ShapedRecipeMix;
+import net.shale.horde.crystalgarden.recipe.functions.damageable_recipe;
 
 import java.util.Map;
 
-public class fixed_recipe extends damageable_recipe {
-    public fixed_recipe(Identifier id, String group, int width, int height, DefaultedList<Ingredient> input, ItemStack output) {
+public class r_fixed extends damageable_recipe {
+    public r_fixed(Identifier id, String group, int width, int height, DefaultedList<Ingredient> input, ItemStack output) {
         super(id, group, width, height, input, output);
     }
 
@@ -60,7 +61,7 @@ public class fixed_recipe extends damageable_recipe {
 
     @Override
     public RecipeSerializer<?> getSerializer() {
-        return recipe_manager.CRAFTING_FIXED;
+        return recipe_reg_old.CRAFTING_FIXED;
     }
 
     private boolean checkMatch(CraftingInventory inventory, int x, int y) {
@@ -86,12 +87,12 @@ public class fixed_recipe extends damageable_recipe {
         public ShapedRecipe read(Identifier identifier, JsonObject jsonObject) {
             String s = JsonHelper.getString(jsonObject, "group", "");
             Map<String, Ingredient> map = ShapedRecipeMix.invokeReadSymbols(JsonHelper.getObject(jsonObject, "key"));
-            String[] astring = fixed_recipe.getPattern(JsonHelper.getArray(jsonObject, "pattern"));
+            String[] astring = r_fixed.getPattern(JsonHelper.getArray(jsonObject, "pattern"));
             int i = astring[0].length();
             int j = astring.length;
             DefaultedList<Ingredient> nonnulllist = ShapedRecipeMix.invokeCreatePatternMatrix(astring, map, i, j);
             ItemStack itemstack = ShapedRecipe.getItem(JsonHelper.getObject(jsonObject, "result")).getDefaultStack();
-            return new fixed_recipe(identifier, s, i, j, nonnulllist, itemstack);
+            return new r_fixed(identifier, s, i, j, nonnulllist, itemstack);
         }
 
         @Override
@@ -106,7 +107,7 @@ public class fixed_recipe extends damageable_recipe {
             }
 
             ItemStack output = packetByteBuf.readItemStack();
-            return new fixed_recipe(identifier, s, i, j, inputs, output);
+            return new r_fixed(identifier, s, i, j, inputs, output);
         }
 
 

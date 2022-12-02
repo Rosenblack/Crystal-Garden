@@ -1,4 +1,4 @@
-package net.shale.horde.crystalgarden.util;
+package net.shale.horde.crystalgarden.recipe.functions;
 
 import net.minecraft.item.Item;
 

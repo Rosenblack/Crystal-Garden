@@ -1,0 +1,20 @@
+{
+  "type": "crystal-garden:fixed",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:raw/aventurine"
+    },
+    "W": {
+      "tag": "crystal-garden:catalyst"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:raw/aragonite",
+    "count": 1
+  }
+}

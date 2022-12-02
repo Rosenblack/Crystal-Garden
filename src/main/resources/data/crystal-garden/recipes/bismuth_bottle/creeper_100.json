@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:drops_creeper"
+    },
+    "G": {
+      "item": "crystal-garden:bismuth_bottle/0"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:bismuth_bottle/creeper_100",
+    "count": 1
+  }
+}

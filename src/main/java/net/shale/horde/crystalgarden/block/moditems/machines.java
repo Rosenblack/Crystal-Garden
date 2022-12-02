@@ -28,7 +28,7 @@ public class machines {
 
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), new BlockItem(block,
-                new FabricItemSettings().group(ItemGroup.MISC)));
+                new FabricItemSettings()));
     }
 
     public static void registerBlock() {

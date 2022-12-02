@@ -11,6 +11,9 @@ import net.shale.horde.crystalgarden.item.generic.g_t0_essence;
 import net.shale.horde.crystalgarden.item.generic.g_t0_seeds;
 import net.shale.horde.crystalgarden.item.moditems.*;
 import net.shale.horde.crystalgarden.item.vanilla.*;
+import net.shale.horde.crystalgarden.recipe.recipe_reg;
+import net.shale.horde.crystalgarden.recipe.recipe_reg_old;
+import net.shale.horde.crystalgarden.util.mob_drops;
 import net.shale.horde.crystalgarden.util.tags;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -51,10 +54,15 @@ public class Main implements ModInitializer {
 		moss.registerModItems();
 		extra.registerModItems();
 		bismuth_bottle.registerModItems();
+		glass_bottle.registerModItems();
 		//souls.registerModItems();
 		//Vanilla plus
 		blocks.registerBlock();
 		machines.registerBlock();
 		entity_reg.regEntity();
+		mob_drops.modifyLootTables();
+
+		recipe_reg.register();
+		recipe_reg_old.registerRecipeSerializers();
 	}
 }

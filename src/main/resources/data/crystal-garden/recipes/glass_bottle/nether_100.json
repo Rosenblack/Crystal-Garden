@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#N#",
+    "NGN",
+    "#N#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_bricks"
+    },
+    "N": {
+      "item": "minecraft:nether_brick"
+    },
+    "G": {
+      "item": "crystal-garden:glass_bottle/0"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:glass_bottle/nether_100",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crystal-garden:raw/spinel"
+    }
+  ],
+  "result": {
+    "item": "crystal-garden:raw/aragonite",
+    "count": 4
+  }
+}

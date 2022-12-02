@@ -22,8 +22,8 @@ public class tags {
     }
 
     public static class Items {
-//        public static final TagKey<Item> CT0 =
-//                createTag("ct0");
+        public static final TagKey<Item> CATALYST =
+                createTag("catalyst");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(Main.ID, name));

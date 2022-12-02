@@ -2,7 +2,7 @@ package net.shale.horde.crystalgarden.mixin;
 
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.Item;
-import net.shale.horde.crystalgarden.util.remainder_item;
+import net.shale.horde.crystalgarden.recipe.functions.remainder_item;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

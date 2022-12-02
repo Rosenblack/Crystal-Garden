@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crystal-garden:raw/chaorite"
+    }
+  ],
+  "result": {
+    "item": "crystal-garden:raw/larimar",
+    "count": 4
+  }
+}

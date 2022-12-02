@@ -1,0 +1,20 @@
+{
+  "type": "crystal-garden:fixed",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:raw/aragonite"
+    },
+    "W": {
+      "tag": "crystal-garden:catalyst"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:raw/spinel",
+    "count": 1
+  }
+}

@@ -61,9 +61,9 @@ public class Combiner extends BlockWithEntity implements BlockEntityProvider {
         return ActionResult.SUCCESS;
     }
 
-    @Nullable
-    @Override
-    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return checkType(type, entity_reg.E_COMBINER, e_combiner::tick);
-    }
+//    @Nullable
+//    @Override
+//    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+//        return checkType(type, entity_reg.E_COMBINER, e_combiner::tick);
+//    }
 }

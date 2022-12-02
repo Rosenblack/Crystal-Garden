@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#CC",
+    "#GA",
+    "KKA"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:melon"
+    },
+    "C": {
+      "item": "minecraft:cactus"
+    },
+    "G": {
+      "item": "crystal-garden:glass_bottle/0"
+    },
+    "A": {
+      "item": "minecraft:azalea"
+    },
+    "K": {
+      "item": "minecraft:kelp"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:glass_bottle/nature_100",
+    "count": 1
+  }
+}

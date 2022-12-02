@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#PC",
+    "GHM",
+    "ZLS"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_dye"
+    },
+    "P": {
+      "item": "minecraft:purple_dye"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    },
+    "G": {
+      "item": "minecraft:gray_dye"
+    },
+    "H": {
+      "item": "crystal-garden:glass_bottle/0"
+    },
+    "M": {
+      "item": "minecraft:magenta_dye"
+    },
+    "Z": {
+      "item": "minecraft:pink_dye"
+    },
+    "L": {
+      "item": "minecraft:lime_dye"
+    },
+    "S": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:glass_bottle/dye_100",
+    "count": 1
+  }
+}

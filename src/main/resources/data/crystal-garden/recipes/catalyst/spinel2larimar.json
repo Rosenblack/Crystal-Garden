@@ -1,0 +1,20 @@
+{
+  "type": "crystal-garden:fixed",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crystal-garden:raw/spinel"
+    },
+    "W": {
+      "tag": "crystal-garden:catalyst"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:raw/larimar",
+    "count": 1
+  }
+}

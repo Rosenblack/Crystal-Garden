@@ -1,0 +1,20 @@
+{
+  "type": "crystal-garden:fixed",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-core:raw/rhodonite"
+    },
+    "W": {
+      "tag": "crystal-garden:catalyst"
+    }
+  },
+  "result": {
+    "item": "crystal-garden:raw/aventurine",
+    "count": 1
+  }
+}

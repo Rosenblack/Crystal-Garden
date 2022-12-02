@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crystal-garden:raw/aventurine"
+    }
+  ],
+  "result": {
+    "item": "horde-core:raw/rhodonite",
+    "count": 4
+  }
+}
