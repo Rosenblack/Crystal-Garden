@@ -6,18 +6,19 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.crystalgarden.Main;
+import net.shale.horde.crystalgarden.util.itemCat;
 
 public class raw {
     public static final Item AVENTURINE = registerItem("raw/aventurine", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
     public static final Item ARAGONITE = registerItem("raw/aragonite", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
     public static final Item SPINEL = registerItem("raw/spinel", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
     public static final Item LARIMAR = registerItem("raw/larimar", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
     public static final Item CHAORITE = registerItem("raw/chaorite", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

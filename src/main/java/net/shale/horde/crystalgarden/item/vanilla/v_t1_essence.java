@@ -6,18 +6,19 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.crystalgarden.Main;
+import net.shale.horde.crystalgarden.util.itemCat;
 
 public class v_t1_essence {
     public static final Item ESSENCE_DEEPSLATE = registerItem("vanilla/essence_deepslate", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
     public static final Item ESSENCE_DIRT = registerItem("vanilla/essence_dirt", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
     public static final Item ESSENCE_ICE = registerItem("vanilla/essence_ice", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
     public static final Item ESSENCE_STONE = registerItem("vanilla/essence_stone", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
     public static final Item ESSENCE_WOOD = registerItem("vanilla/essence_wood", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
+            .group(itemCat.MAIN)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

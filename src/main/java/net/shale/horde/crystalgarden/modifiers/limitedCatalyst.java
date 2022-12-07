@@ -8,13 +8,14 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
 import net.shale.horde.crystalgarden.recipe.functions.remainder_item;
+import net.shale.horde.crystalgarden.util.itemCat;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
 public class limitedCatalyst extends remainder_item {
     public limitedCatalyst() {
-        super(new FabricItemSettings().group(ItemGroup.MATERIALS).maxDamage(1000), true);
+        super(new FabricItemSettings().group(itemCat.MAIN).maxDamage(1000), true);
     }
 
     @Override

@@ -6,12 +6,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.crystalgarden.Main;
+import net.shale.horde.crystalgarden.util.itemCat;
 
 public class moss {
-    public static final Item MOSS_AIR = registerItem("moss/air", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
-    public static final Item MOSS_EARTH = registerItem("moss/earth", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
-    public static final Item MOSS_FIRE = registerItem("moss/fire", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
-    public static final Item MOSS_WATER = registerItem("moss/water", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item MOSS_AIR = registerItem("moss/air", new Item(new FabricItemSettings().group(itemCat.MAIN)));
+    public static final Item MOSS_EARTH = registerItem("moss/earth", new Item(new FabricItemSettings().group(itemCat.MAIN)));
+    public static final Item MOSS_FIRE = registerItem("moss/fire", new Item(new FabricItemSettings().group(itemCat.MAIN)));
+    public static final Item MOSS_WATER = registerItem("moss/water", new Item(new FabricItemSettings().group(itemCat.MAIN)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

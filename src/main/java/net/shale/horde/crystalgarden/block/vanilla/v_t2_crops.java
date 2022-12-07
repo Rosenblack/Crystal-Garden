@@ -10,6 +10,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.crystalgarden.Main;
+import net.shale.horde.crystalgarden.util.itemCat;
 
 public class v_t2_crops {
     public static final Block CROP_AMETHYST = registerBlockWithoutBlockItem("vanilla/crop_amethyst",
@@ -51,7 +52,7 @@ public class v_t2_crops {
 
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), new BlockItem(block,
-                new FabricItemSettings().group(ItemGroup.FOOD)));
+                new FabricItemSettings().group(itemCat.MAIN)));
     }
 
     public static void registerBlock() {

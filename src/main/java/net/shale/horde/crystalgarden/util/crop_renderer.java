@@ -9,6 +9,7 @@ import net.shale.horde.crystalgarden.block.vanilla.*;
 public class crop_renderer implements ModInitializer {
     @Override
     public void onInitialize() {
+        BlockRenderLayerMap.INSTANCE.putBlock(g_t0_crops.CROP_RHODONITE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(g_t0_crops.CROP_AIR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(g_t0_crops.CROP_EARTH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(g_t0_crops.CROP_FIRE, RenderLayer.getCutout());

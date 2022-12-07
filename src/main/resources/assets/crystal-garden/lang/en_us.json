@@ -1,4 +1,6 @@
 {
+  "itemGroup.crystal-garden.main":"Crystal Garden",
+
   "item.crystal-garden.generic.seed_air": "Air Seed",
   "item.crystal-garden.generic.seed_earth": "Earth Seed",
   "item.crystal-garden.generic.seed_fire": "Fire Seed",
@@ -116,7 +118,7 @@
   "item.crystal-garden.gemstones.spinel": "Spinel Gem",
   "item.crystal-garden.gemstones.chaorite": "Chaorite Gem",
 
-  "item.crystal-garden.seeds.seed_rhodonite": "Rhodonite Seed",
+  "item.crystal-garden.generic.seed_rhodonite": "Rhodonite Seed",
   "item.crystal-garden.seeds.seed_bismuth": "Bismuth Seed",
   "item.crystal-garden.seeds.seed_dragonstone_overworld": "Dragonstone Seed",
   "item.crystal-garden.seeds.seed_dragonstone_nether": "Nether Dragonstone Seed",

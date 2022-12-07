@@ -13,7 +13,7 @@ import net.shale.horde.crystalgarden.Main;
 import net.shale.horde.crystalgarden.item.moditems.rhodonite_crop;
 
 public class g_t0_crops {
-    public static final Block CROP_RHODONITE = registerBlockWithoutBlockItem("seeds/crop_rhodonite",
+    public static final Block CROP_RHODONITE = registerBlockWithoutBlockItem("generic/crop_rhodonite",
             new rhodonite_crop(FabricBlockSettings.copy(Blocks.WHEAT)
             ));
     public static final Block CROP_AIR = registerBlockWithoutBlockItem("generic/crop_air",
