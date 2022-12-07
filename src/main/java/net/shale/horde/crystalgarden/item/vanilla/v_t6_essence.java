@@ -7,7 +7,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.crystalgarden.Main;
-import net.shale.horde.crystalgarden.item.moditems.modifiers.glinted;
+import net.shale.horde.crystalgarden.modifiers.glinted;
 
 public class v_t6_essence {
     public static final Item ESSENCE_DRAGON = registerItem("vanilla/essence_dragon", new Item(new FabricItemSettings()

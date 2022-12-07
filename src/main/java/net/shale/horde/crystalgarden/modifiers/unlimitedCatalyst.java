@@ -1,4 +1,4 @@
-package net.shale.horde.crystalgarden.item.moditems.modifiers;
+package net.shale.horde.crystalgarden.modifiers;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.item.TooltipContext;

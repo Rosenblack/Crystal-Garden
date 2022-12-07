@@ -1,4 +1,4 @@
-package net.shale.horde.crystalgarden.item.moditems.modifiers;
+package net.shale.horde.crystalgarden.modifiers;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

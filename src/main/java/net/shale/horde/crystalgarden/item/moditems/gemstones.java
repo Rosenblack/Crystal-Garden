@@ -6,9 +6,10 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.crystalgarden.Main;
+import net.shale.horde.crystalgarden.modifiers.glinted;
 
 public class gemstones {
-    public static final Item BISMUTH = registerItem("gemstones/bismuth", new Item(new FabricItemSettings()
+    public static final Item BISMUTH = registerItem("gemstones/bismuth", new glinted(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
     public static final Item DRAGONSTONE_OVERWORLD = registerItem("gemstones/dragonstone_overworld", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));

@@ -17,9 +17,9 @@ import net.shale.horde.crystalgarden.block.generic.g_t0_crop_fire;
 import net.shale.horde.crystalgarden.block.generic.g_t0_crop_water;
 
 public class blocks {
-    public static final Block CHARCOAL_BLOCK = registerBlock("vanillaplus/charcoal_block",
-            new Block(FabricBlockSettings.of(Material.STONE)
-            ));
+//    public static final Block CHARCOAL_BLOCK = registerBlock("vanillaplus/charcoal_block",
+//            new Block(FabricBlockSettings.of(Material.STONE)
+//            ));
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier(Main.ID, name), block);

@@ -1,52 +1,51 @@
 package net.shale.horde.crystalgarden.item.vanilla;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.crystalgarden.Main;
-import net.shale.horde.crystalgarden.block.vanilla.v_t1_crops;
 import net.shale.horde.crystalgarden.block.vanilla.v_t2_crops;
+import net.shale.horde.crystalgarden.modifiers.aliasedTier;
 
 public class v_t2_seeds {
     public static final Item SEED_AMETHYST = registerItem("vanilla/seed_amethyst", new
-            AliasedBlockItem(v_t2_crops.CROP_AMETHYST,
+            aliasedTier(v_t2_crops.CROP_AMETHYST,
             new FabricItemSettings()
-                    .group(ItemGroup.FOOD)));
+                    .group(ItemGroup.FOOD),2));
     public static final Item SEED_CHICKEN = registerItem("vanilla/seed_chicken", new
-            AliasedBlockItem(v_t2_crops.CROP_CHICKEN,
+            aliasedTier(v_t2_crops.CROP_CHICKEN,
             new FabricItemSettings()
-                    .group(ItemGroup.FOOD)));
+                    .group(ItemGroup.FOOD),2));
     public static final Item SEED_COAL = registerItem("vanilla/seed_coal", new
-            AliasedBlockItem(v_t2_crops.CROP_COAL,
+            aliasedTier(v_t2_crops.CROP_COAL,
             new FabricItemSettings()
-                    .group(ItemGroup.FOOD)));
+                    .group(ItemGroup.FOOD),2));
     public static final Item SEED_COPPER = registerItem("vanilla/seed_copper", new
-            AliasedBlockItem(v_t2_crops.CROP_COPPER,
+            aliasedTier(v_t2_crops.CROP_COPPER,
             new FabricItemSettings()
-                    .group(ItemGroup.FOOD)));
+                    .group(ItemGroup.FOOD),2));
     public static final Item SEED_COW = registerItem("vanilla/seed_cow", new
-            AliasedBlockItem(v_t2_crops.CROP_COW,
+            aliasedTier(v_t2_crops.CROP_COW,
             new FabricItemSettings()
-                    .group(ItemGroup.FOOD)));
+                    .group(ItemGroup.FOOD),2));
     public static final Item SEED_FISH = registerItem("vanilla/seed_fish", new
-            AliasedBlockItem(v_t2_crops.CROP_FISH,
+            aliasedTier(v_t2_crops.CROP_FISH,
             new FabricItemSettings()
-                    .group(ItemGroup.FOOD)));
+                    .group(ItemGroup.FOOD),2));
     public static final Item SEED_FROG = registerItem("vanilla/seed_frog", new
-            AliasedBlockItem(v_t2_crops.CROP_FROG,
+            aliasedTier(v_t2_crops.CROP_FROG,
             new FabricItemSettings()
-                    .group(ItemGroup.FOOD)));
+                    .group(ItemGroup.FOOD),2));
     public static final Item SEED_IRON = registerItem("vanilla/seed_iron", new
-            AliasedBlockItem(v_t2_crops.CROP_IRON,
+            aliasedTier(v_t2_crops.CROP_IRON,
             new FabricItemSettings()
-                    .group(ItemGroup.FOOD)));
+                    .group(ItemGroup.FOOD),2));
     public static final Item SEED_PIG = registerItem("vanilla/seed_pig", new
-            AliasedBlockItem(v_t2_crops.CROP_PIG,
+            aliasedTier(v_t2_crops.CROP_PIG,
             new FabricItemSettings()
-                    .group(ItemGroup.FOOD)));
+                    .group(ItemGroup.FOOD),2));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);
