@@ -1,14 +1,15 @@
 package net.shale.horde.crystalgarden.util;
 
+import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 import net.shale.horde.crystalgarden.block.generic.g_t0_crops;
 import net.shale.horde.crystalgarden.block.vanilla.*;
 
-public class crop_renderer implements ModInitializer {
+public class crop_renderer implements ClientModInitializer {
     @Override
-    public void onInitialize() {
+    public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(g_t0_crops.CROP_RHODONITE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(g_t0_crops.CROP_AIR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(g_t0_crops.CROP_EARTH, RenderLayer.getCutout());
