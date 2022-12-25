@@ -26,9 +26,8 @@ public abstract class G_CropBlock extends CropBlock  {
         super(settings);
     }
     public boolean isFertilizable(BlockView world, BlockPos pos, BlockState state, boolean isClient) {
-        return false;
+        return !this.isMature(state);
     }
-
     @Override
     public IntProperty getAgeProperty() {
         return AGE;
