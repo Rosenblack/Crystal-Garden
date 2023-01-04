@@ -2,14 +2,10 @@ package net.shale.horde.crystalgarden.item.moditems;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.crystalgarden.Main;
 import net.shale.horde.crystalgarden.modifiers.glinted;
-import net.shale.horde.crystalgarden.modifiers.limitedCatalyst;
-import net.shale.horde.crystalgarden.modifiers.unlimitedCatalyst;
 import net.shale.horde.crystalgarden.util.itemCat;
 
 public class extra {
@@ -24,8 +20,8 @@ public class extra {
             .group(itemCat.MAIN)));
     public static final Item DISC_BLANK = registerItem("extras/blank_disc", new Item(new FabricItemSettings()
             .group(itemCat.MAIN)));
-    public static final Item RHODONITE_CATALYST = registerItem("gemstones/rhodonite_catalyst", new limitedCatalyst());
-    public static final Item LARIMAR_CATALYST = registerItem("gemstones/larimar_catalyst", new unlimitedCatalyst());
+//    public static final Item RHODONITE_CATALYST = registerItem("gemstones/rhodonite_catalyst", new limitedCatalyst());
+//    public static final Item LARIMAR_CATALYST = registerItem("gemstones/larimar_catalyst", new unlimitedCatalyst());
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

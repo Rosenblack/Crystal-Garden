@@ -3,20 +3,13 @@ package net.shale.horde.crystalgarden;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import net.shale.horde.crystalgarden.block.generic.g_t0_crops;
-import net.shale.horde.crystalgarden.block.moditems.machines;
 import net.shale.horde.crystalgarden.block.vanilla.*;
 import net.shale.horde.crystalgarden.block.vanillaplus.blocks;
-import net.shale.horde.crystalgarden.entity.entity_reg;
 import net.shale.horde.crystalgarden.item.generic.g_t0_essence;
 import net.shale.horde.crystalgarden.item.generic.g_t0_seeds;
 import net.shale.horde.crystalgarden.item.moditems.*;
 import net.shale.horde.crystalgarden.item.vanilla.*;
-import net.shale.horde.crystalgarden.recipe.recipe_reg;
-import net.shale.horde.crystalgarden.recipe.recipe_reg_old;
 import net.shale.horde.crystalgarden.util.mob_drops;
-import net.shale.horde.crystalgarden.util.tags;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class Main implements ModInitializer {
 	public static final String ID = "crystal-garden";
@@ -58,11 +51,8 @@ public class Main implements ModInitializer {
 		//souls.registerModItems();
 		//Vanilla plus
 		blocks.registerBlock();
-		machines.registerBlock();
-		entity_reg.regEntity();
+
 		mob_drops.modifyLootTables();
 
-		recipe_reg.register();
-		recipe_reg_old.registerRecipeSerializers();
 	}
 }
