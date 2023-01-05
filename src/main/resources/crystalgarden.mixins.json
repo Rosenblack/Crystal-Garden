@@ -6,8 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ItemMix",
-    "ShapedRecipeMix"
+
   ],
   "injectors": {
     "defaultRequire": 1
